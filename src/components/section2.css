@@ -1,0 +1,37 @@
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+.all h3{
+    font-size: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+}
+.card img{
+    width: 100px;
+}
+.card p{
+    width: 400px;
+    color: gray;
+}
+.card h5{
+    font-size: 24px;
+}
